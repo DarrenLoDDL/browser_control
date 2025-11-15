@@ -279,7 +279,7 @@ int main() {
     if (!content.empty()) cout << "Content Captured" << endl;
     else cout << "Clipboard is empty or not text.\n";
 
-    string cppFile = "F:\PROG_HUB\Programming Projects\cursor_temps\cursor_temps\cursor_temps.cpp";
+    string cppFile = "Enter a Location";
     string newCppContent = content;
 
     if (!overwriteFile(cppFile, newCppContent)) {
@@ -304,4 +304,5 @@ int main() {
 
     cout << "Done!\n";
     return 0;
+
 }//open google docs and write me a story about dragons, 200 words.
